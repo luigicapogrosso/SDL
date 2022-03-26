@@ -21,3 +21,9 @@ $ mkdir objdir && cd objdir
 $ ../configure --prefix=$CUDD_INSTALL_DIRECTORY
 $ make && make install
 ```
+
+In `lecture_01/` you can find:
+* `add_mat/`: The folder that contains additional material for further study;
+* `code/`: The folder that contains the solution source codes of the assigned exercises;
+* `cudd-3.0.0/`: The CUDD Package Release 3.0.0;
+* `slides/`: The lecture slides.
