@@ -16,7 +16,7 @@ $ git clone https://github.com/luigicapogrosso/SDL.git
 The library is tested for compilation using GCC (9.4.0) and GNU Make (9.4.0). To build the library from sources in a clean way, it is preferable that you set up a build subdirectory, say:
 ```
 $ cd SDL/lecture_01/cudd-3.0.0
-$ export CUDD_INSTALL_DIRECTORY=$HOME/<install_dir>
+$ export CUDD_INSTALL_DIRECTORY=$HOME/<path>
 $ mkdir objdir && cd objdir
 $ ../configure --prefix=$CUDD_INSTALL_DIRECTORY
 $ make && make install

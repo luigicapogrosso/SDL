@@ -19,9 +19,10 @@
  *                  pr = 1 : Prints counts of nodes and minterms
  *                  pr = 2 : Prints counts + disjoint sum of product
  *                  pr = 3 : Prints counts + list of nodes
- *                  pr > 3 : Prints counts + disjoint sum of product + list of nodes
+ *                  pr > 3 : Prints counts + disjoint sum of product
+ *                                         + list of nodes
  */
-void print_dd (DdManager *gbm, DdNode *dd, int n, int pr)
+void print_dd(DdManager *gbm, DdNode *dd, int n, int pr)
 {
     // Reports the number of live nodes in BDDs and ADDs.
     printf("DdManager nodes: %ld | ", Cudd_ReadNodeCount(gbm));
@@ -44,11 +45,11 @@ void print_dd (DdManager *gbm, DdNode *dd, int n, int pr)
 }
 
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     // Initialize a new BDD manager.
     DdManager *gbm;
-    gbm = Cudd_Init(0, 0, CUDD_UNIQUE_SLOTS,CUDD_CACHE_SLOTS, 0);
+    gbm = Cudd_Init(0, 0, CUDD_UNIQUE_SLOTS, CUDD_CACHE_SLOTS, 0);
 
     // Create a new BDD variable x1 and x2.
     DdNode *bdd, *x1, *x2;
