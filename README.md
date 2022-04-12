@@ -14,3 +14,6 @@ In particular, in the `lecture_01/` folder, you can find:
 
 ## Lecture 02: The HermesBDD package ##
 HermesBDD is a parallel multi-core and multi-platform library of Binary Decision Diagrams, written in C++ and fully developed at the University of Verona. It focuses on high performance, usability, and correctness. For more information, compatibility lists, details, the latest release, progress reports, and more, please visit the HermesBDD [home page](https://luigicapogrosso.github.io/HermesBDD/).
+
+In particular, in the `lecture_02/` folder, you can find:
+* `slides/`: The lecture slides.
