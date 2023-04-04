@@ -1,6 +1,6 @@
-# Systems Design Laboratory course (2021/2022) #
+# Systems Design Laboratory course (2022/2023) @ UniVR #
 
-This repository contains the collection of code and slides on BDDs for the Systems Design Laboratory course (2021/2022). It refers to laboratory lectures from the *representation of formal models for systems* part of the course.
+This repository contains the collection of code and slides on BDDs for the Systems Design Laboratory course (2022/2023). It refers to laboratory lectures from the *representation of formal models for systems* part of the course.
 
 ## Lecture 01: The CUDD package ##
 
