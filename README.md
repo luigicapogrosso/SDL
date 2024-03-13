@@ -1,4 +1,4 @@
-# Systems Design Laboratory course (2023/2024) @ UniVR #
+# Systems Design Laboratory course @ UniVR #
 
 This repository contains the collection of code and slides on BDDs for the Systems Design Laboratory course (2023/2024). It refers to laboratory lectures from the *representation of formal models for systems* part of the course.
 
